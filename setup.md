@@ -25,4 +25,6 @@
 * https://github.com/nokia/RED
 * Update Site: Click Help -> Install New Software -> Add and set address in Location to: 
   http://master.dl.sourceforge.net/project/red-robot-editor/repository
+* Setup for Eclipse on MAC:
+    - Launch Preferences -> Robot Framework -> Install frameworks -> click Add: /Users/hiep/pyvirtualenv/python36env/bin -> and click enable checkbox on the left of the table
 
