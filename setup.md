@@ -1,4 +1,4 @@
-### Python Virtual environment 
+## Python Virtual environment 
 
 1.  Install python virtual enviromment: 
     -  pip3 install virtualenv
@@ -9,5 +9,14 @@
 3. Activate/Deactivate python virtual env:
     - source python36env/bin/activate
     - deactivate
+
+## Robotframework installation:
+* pip install robotframework
+* pip install robotframework-selenium2library (for python2.7)
+* install Selenium2Library for python3: 
+  * https://github.com/robotframework/Selenium2Library
+  * pip install --upgrade --pre robotframework-selenium2library
+* pip install robotframework-debuglibrary (https://pypi.python.org/pypi/robotframework-debuglibrary/0.8)
+* pip install robotframework-lint   #error checking for .robot file (http://boakley.github.io/2014/11/30/robotframework-lint-preview/)
 
 
