@@ -10,12 +10,14 @@
     - source python36env/bin/activate
     - deactivate
 
-## Robotframework installation:
+## Robotframework installation: (Using Python 3)
+* https://github.com/robotframework/SeleniumLibrary#installation
+* http://robotframework.org/robotframework/3.0.3/RobotFrameworkUserGuide.html#installation-instructions
+
 * pip install robotframework
-* pip install robotframework-selenium2library (for python2.7)
-* install Selenium2Library for python3: 
-  * https://github.com/robotframework/Selenium2Library
-  * pip install --upgrade --pre robotframework-selenium2library
+* pip uninstall robotframework
+* pip install --upgrade robotframework
+* pip install --upgrade robotframework-seleniumlibrary
 * pip install robotframework-debuglibrary (https://pypi.python.org/pypi/robotframework-debuglibrary/0.8)
 * pip install robotframework-lint   #error checking for .robot file (http://boakley.github.io/2014/11/30/robotframework-lint-preview/)
 
